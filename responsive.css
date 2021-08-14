@@ -1,0 +1,123 @@
+
+
+
+
+@media(max-width:700px){
+    nav{
+        background: linear-gradient(to right, #70e1f5
+ ,#ffd194);
+    }
+    nav ul{
+    
+        position: absolute;
+        top: 79px;
+        
+        right: 10px;
+        width: 200px;
+        transition: max-height 0.9s;
+        overflow: hidden;
+        background: #242526;
+        box-shadow: 0,0,20px, 0 rgba(0,0 0,.1);
+        
+    }
+    nav .nav-links ul li{
+        display: block;
+        
+        margin: 5px;
+        text-align: center;
+        
+        
+    }
+    nav .nav-links ul li a{
+      font-size: 15px;
+    }
+    a h4{
+      color: coral;
+    }
+    a span{
+      color: darkmagenta;
+    }
+   
+   
+
+        nav .nav-links ul li a:hover::after{
+            width: 50%;
+        }
+    .humberger{
+        display: flex;
+    }
+
+    .content-box{
+        padding-top: 120px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+    .content-box p{
+        padding: 0 px 70px;
+        
+    }
+    .my-col-4{
+        flex-basis: 60%;
+        margin-bottom: 30px;
+    }
+
+    .section-title{
+        font-size: 2rem;
+        line-height: 30px;
+    }
+}
+@media (max-width:500px){
+    .humberger{
+        right: 0px;
+        top: 0px;
+    }
+
+    .content-box{
+        padding-top: 120px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content-box h1{
+        font-size: 2rem;
+    }
+    .content-box p{
+        font-size: 18px;
+        padding: 0 50px;
+    }
+
+    .my-col-4{
+        flex-basis: 80%;
+        margin-bottom: 20px;
+    }
+
+    .section-title{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+}
+@media (max-width:300px){
+    nav{
+
+    }
+    .content-box{
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content-box h1{
+        font-size: 1rem;
+    }
+    .content-box p{
+        font-size: 10px;
+        padding: 0 10px;
+
+    }
+
+    .section-title{
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+}
