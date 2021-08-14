@@ -13,11 +13,12 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: kalpurush;
+            
             
         }
         html{
             scroll-behavior: smooth;
+            font-family: kalpurush;
         }
          
         .section-title{
@@ -185,7 +186,8 @@
        font-size: 4rem;
        text-align: center;
        line-height: 50px;
-       color: tomato;
+      /* color: #0b9d8a; */
+      color: tomato;
        font-family: hind;
      
    }
@@ -248,7 +250,7 @@
   }
  .service-col h2{
      font-family: hind;
-     margin-bottom: 20px;
+     margin-bottom: 5px;
  }
 
   .service-col:hover{
@@ -341,4 +343,12 @@
      }
      ol li{
     
+     }
+     
+     .service-col .fa{
+       font-size: 25px;
+       
+       border-radius: 50%;
+       color: tomato;
+       
      }
